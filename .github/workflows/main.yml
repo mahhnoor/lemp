@@ -20,8 +20,8 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          aws-access-key-id: ${{ secrets.AKIATDPBZPZ3JNDSU3PV }}
-          aws-secret-access-key: ${{ secrets.rUHeiU654lvVMhj2MgmGm74aYwDTaJthO6JZFe9S }}
+          aws-access-key-id: ${{ secrets.ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.SECRET_ACCESS_KEY }}
           aws-region: us-east-2
 
       - name: Login to Amazon Elastic Container Registry
